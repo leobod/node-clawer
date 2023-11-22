@@ -1,0 +1,27 @@
+{
+  "name": "clawer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:html": "node ./src/index.js",
+    "test:mypuppeteer": "node ./src/mypuppeteer.js",
+    "test:myocr": "node ./src/myocr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leobod/node-clawer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leobod/node-clawer/issues"
+  },
+  "homepage": "https://github.com/leobod/node-clawer#readme",
+  "dependencies": {
+    "axios": "~1.6.2",
+    "cheerio": "~1.0.0-rc.12",
+    "puppeteer": "~19.6.3",
+    "tesseract.js": "^5.0.3"
+  }
+}
